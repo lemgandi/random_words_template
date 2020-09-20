@@ -13,11 +13,11 @@ Usage: ./random_words_template.sh -i infile -o outfile
    on one run, but perhaps "clinic in Duteous with clinic" on
    the next.
 
-# random_words_template.sh
+   * random_words_template.sh
 
 The shell script
 
-# o_intemplate.txt
+   * o_intemplate.txt
 
 A sample template file
 
