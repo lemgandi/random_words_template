@@ -53,7 +53,7 @@ EOU
 #
 # Main Line
 #
-OPTSTR="i:o:c"
+OPTSTR="i:o:"
 
 CAPWORDS="nocap"
 
@@ -62,7 +62,6 @@ do
     case ${arg} in
 	i) TEMPLATE=${OPTARG} ;;	
 	o) OUTFILE=${OPTARG} ;;
-	c) CAPWORDS="cap" ;;
 	h) usage $0 ; exit 1 ;;
 	?) echo Invalid Flag: ${arg} ; usage $0 ; exit 1 ;;
     esac
